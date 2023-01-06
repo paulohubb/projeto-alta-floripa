@@ -1,0 +1,165 @@
+body {
+	 font-family: 'Montserrat';font-size: 22px;
+}
+.banner2 {
+	display: inline-block;
+	width: 100%	
+
+}
+
+
+p {
+	text-align: center		
+}
+
+main {
+	
+	text-align: center;
+	font-size: 15px;
+	margin: 50px 0;	
+}
+
+
+.sobre {
+	font-size: 30px;
+	text-transform: uppercase
+}
+
+.sobre:before {
+	content: " [ ";
+
+}
+
+.sobre:after {
+	content: " ] ";
+
+}
+
+
+.textosobre {
+	font-size: 20px;
+	text-align: left;
+	vertical-align: top;
+	margin: 0 10 15; 
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px #000000;
+	
+
+}
+
+.vemprotime {
+	text-align: center;
+	font-style: bold;
+
+}
+
+
+.onde-achar { 
+	font-size: 15px;
+	text-transform: uppercase;
+	padding: 30px;
+}
+
+.onde-achar:before {
+	content: " [ ";
+
+}
+
+.onde-achar:after {
+	content: " ] ";
+
+}
+
+
+em {
+	color: black;
+}
+
+
+header {
+	background: black;
+	padding: 5px 0;
+}
+
+
+.logo {
+	width: 140px;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: -10px auto;
+}
+nav {
+	position: absolute;
+	top:90px;
+	right: 0;
+
+}
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #DAA520;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+
+}
+
+nav a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+
+}
+.produto li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%; 
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 10px;
+
+}
+
+
+
+footer {
+	text-align: center;
+	background: black;
+
+}
+.rodape {
+	width: 80px;
+	text-align: center;
+	padding: 0 0 -30px;
+
+}
+
+.texto-rodape {
+	font-size: 15px;
+	color: white;
+	margin: -30px;
+	vertical-align: top;
+}
+
+.video-localizacao {
+	background: linear-gradient(white, #DAA520, white);
+}

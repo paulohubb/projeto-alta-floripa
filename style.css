@@ -1,0 +1,173 @@
+body {
+	 font-family: 'Montserrat';font-size: 22px;
+}
+
+header {
+	background: black;
+	padding: 20px 0;
+}
+
+
+.logo {
+	width: 120px;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: -10px auto;
+}
+nav {
+	position: absolute;
+	top:80px;
+	right: 0;
+
+}
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #DAA520;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+
+
+}
+
+nav a:hover {
+	color: grey;
+	text-decoration: underline;
+}
+
+.produto {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+.produto li {
+	display: inline-block;
+	text-align: center;
+	width: 28%;
+	vertical-align: top;
+	margin: 0 1.5%; 
+	padding: 20px 20px;
+	box-sizing: border-box;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 10px;
+
+}
+
+.produto li:hover {
+	border-color: #DAA520;
+	
+}
+
+.produto li:hover h2 {
+	font-size: 25px;
+
+}
+
+
+.produto h2 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+.produto-descricao {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.preco-produto { 
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 10px;
+
+}
+
+
+.bolas {
+	width: 165px;
+	margin-top: 10px;
+}
+
+.precosaulas {
+
+	width: 140px;
+	margin-top: 10px;
+}
+
+.camisa {
+	width: 180px;
+	margin-top: 10px;
+}
+
+
+footer {
+	
+	text-align: center;
+	background: black;
+
+}
+.rodape {
+	width: 80px;
+	text-align: center;
+	
+}
+
+.texto-rodape {
+	font-size: 15px;
+	color: white;
+	margin: -30px;
+}
+
+
+main {
+	width: 940px;
+	margin: 40px auto;
+
+}
+
+form {
+	margin: 40px 0;
+	
+}
+
+form label, p {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 9px 15px;
+	width: 300px;
+}
+
+.enviar {
+	width: 30%;
+	padding: 15px 0; 
+	background: #DAA520;
+	font-weight: bold;
+	font-transform: uppercase;
+	border: none;
+	border-radius: 10px;
+	transition: 2s;
+
+}
+
+.enviar:hover {
+	background: black;
+	color: white;
+}
