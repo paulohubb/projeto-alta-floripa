@@ -1,5 +1,5 @@
 body {
-	 font-family: 'Montserrat';font-size: 22px;
+	 font-family: 'Montserrat';font-size: 16px;
 }
 .banner2 {
 	display: inline-block;
@@ -21,8 +21,11 @@ main {
 
 
 .sobre {
-	font-size: 30px;
+	margin-top: -30px;
+	font-size: 20px;
 	text-transform: uppercase
+
+
 }
 
 .sobre:before {
@@ -37,7 +40,7 @@ main {
 
 
 .textosobre {
-	font-size: 20px;
+	font-size: 16px;
 	text-align: left;
 	vertical-align: top;
 	margin: 0 10 15; 
@@ -60,7 +63,7 @@ main {
 
 
 .onde-achar { 
-	font-size: 15px;
+	font-size: 16px;
 	text-transform: uppercase;
 	padding: 30px;
 }
@@ -112,7 +115,7 @@ nav a {
 	text-transform: uppercase;
 	color: #DAA520;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 16px;
 	text-decoration: none;
 
 }
@@ -154,7 +157,7 @@ footer {
 }
 
 .texto-rodape {
-	font-size: 15px;
+	font-size: 16px;
 	color: white;
 	margin: -30px;
 	vertical-align: top;
