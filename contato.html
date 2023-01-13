@@ -20,8 +20,8 @@
 
 				<nav>
 					<ul>
-						<li> <a href=projeto_alta.html>  Home </a></li>
-						<li> <a href=produtos.html> Produtos </a></li>
+						<li> <a href=index.html>  Home </a></li>
+						<li> <a href=galeria.html> Galeria </a></li>
                         <li> <a href=contato.html> Contato </a></li>
 						<li> <a href="http://www.instagram.com/projetoalta_floripa/">Siga-nos! </a> </li>
 
@@ -31,7 +31,7 @@
         </header>
 
         <main>
-            <form>
+            <form class="formulario">
                 <label for=nomesobrenome>Nome e Sobrenome:</label>
                 <input type="text" id="nomesobrenome" class="input-padrao" required>
                 
@@ -41,10 +41,12 @@
                 <label for=telefone>Telefone:</label>
                 <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
                 
-                <label for=mensagem> Mensagem </label>
-                <textarea cols="70" rows="10" id=mensagem class="input-padrao" required> </textarea>
+          
+                <div class="mensagem-contato"> 
 
-                <div> 
+                 <label for=mensagem> Mensagem </label>
+                 <textarea class="mensagem-contato" cols="70" rows="10" id=mensagem  required> </textarea>
+                    
                     <p> Como prefere nosso contato? </p>
                     <label for="radio-email"> <input type="radio" name="contato" value="email" id="radio-email"> Email </label>
                    
