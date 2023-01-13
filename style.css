@@ -44,71 +44,33 @@ nav a:hover {
 	text-decoration: underline;
 }
 
-.produto {
-	width: 940px;
-	margin: 0 auto;
-	padding: 50px 0;
-}
-.produto li {
-	display: inline-block;
-	text-align: center;
-	width: 28%;
-	vertical-align: top;
-	margin: 0 1.5%; 
-	padding: 20px 20px;
-	box-sizing: border-box;
-	border-color: black;
-	border-width: 2px;
-	border-style: solid;
-	border-radius: 10px;
+.produto ul {
+	display: inline-flex;
 
+
+	
 }
+
+.bolas {
+	width: 50%;
+	margin: 0 0 0 -3px;
+	vertical-align: center;
+}
+
 
 .produto li:hover {
 	border-color: #DAA520;
 	
 }
 
-.produto li:hover h2 {
-	font-size: 16px;
+
+.tamanho-img {
+	
+	width: 150px;
+
 
 }
 
-
-.produto h2 {
-	font-size: 16px;
-	font-weight: bold;
-}
-
-
-.produto-descricao {
-	font-size: 20px;
-	font-weight: bold;
-}
-
-.preco-produto { 
-	font-size: 20px;
-	font-weight: bold;
-	margin-top: 10px;
-
-}
-
-
-.bolas {
-	width: 165px;
-	margin-top: 10px;
-}
-
-.precosaulas {
-
-	width: 140px;
-	margin-top: 10px;
-}
-
-.camisa {
-	width: 180px;
-	margin-top: 10px;
-}
 
 
 footer {
@@ -139,6 +101,7 @@ main {
 form {
 	margin: 40px 0;
 	
+	
 }
 
 form label, p {
@@ -149,10 +112,10 @@ form label, p {
 }
 
 .input-padrao {
-	display: block;
+	
 	margin: 0 0 20px;
 	padding: 9px 15px;
-	width: 300px;
+	width: 40%;
 }
 
 .enviar {
@@ -171,3 +134,17 @@ form label, p {
 	background: black;
 	color: white;
 }
+
+
+
+.mensagem-contato div {
+	display: inline-block;
+ 	vertical-align: top;
+	text-align: top;
+	width: 40%;
+	margin: 0 1.5%; 
+	padding: 20px 20px;
+	
+	
+}
+
