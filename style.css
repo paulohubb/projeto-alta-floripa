@@ -1,3 +1,4 @@
+
 body {
 	 font-family: 'Montserrat';font-size: 22px;
 }
@@ -45,7 +46,7 @@ nav a:hover {
 }
 
 .produto ul {
-	display: inline-flex;
+	display: flex;
 
 
 	
@@ -74,22 +75,25 @@ nav a:hover {
 
 
 footer {
-	
 	text-align: center;
 	background: black;
 
 }
+.texto-rodape {
+	text-align: center;
+	font-size: 16px;
+	color: white;
+	vertical-align: top;
+	margin: -30px 400px;
+}
+
 .rodape {
 	width: 80px;
 	text-align: center;
-	
+	padding: 0 0 -30px;
+
 }
 
-.texto-rodape {
-	font-size: 15px;
-	color: white;
-	margin: -30px;
-}
 
 
 main {
@@ -105,7 +109,7 @@ form {
 }
 
 form label, p {
-	display: block;
+	display: flex;
 	font-size: 16px;
 	margin: 0 0 10px;
 
@@ -138,7 +142,7 @@ form label, p {
 
 
 .mensagem-contato div {
-	display: inline-block;
+	
  	vertical-align: top;
 	text-align: top;
 	width: 40%;
@@ -147,4 +151,19 @@ form label, p {
 	
 	
 }
+
+main ul {
+	width: 500px;
+	display: inline-flex;
+	margin: 0 auto;
+}
+
+.min {
+	width: 150px;
+	padding: 30px;
+	margin-left: -50px;
+	margin-top: 50px;
+}
+
+
 
