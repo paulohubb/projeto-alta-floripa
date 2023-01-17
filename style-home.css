@@ -62,22 +62,6 @@ main {
 }
 
 
-.onde-achar { 
-	font-size: 16px;
-	text-transform: uppercase;
-	padding: 30px;
-}
-
-.onde-achar:before {
-	content: " [ ";
-
-}
-
-.onde-achar:after {
-	content: " ] ";
-
-}
-
 
 em {
 	color: black;
@@ -163,6 +147,31 @@ footer {
 	vertical-align: top;
 }
 
-.video-localizacao {
-	background: linear-gradient(white, #DAA520, white);
+.video {
+	display: flex;
+}
+
+
+.onde-achar { 
+	font-size: 16px;
+	text-transform: uppercase;
+	padding: 30px;
+}
+
+.onde-achar:before {
+	content: " [ ";
+
+}
+
+.onde-achar:after {
+	content: " ] ";
+
+}
+
+.ytb {
+	margin: 20px 0 0 100px;
+}
+
+.maps {
+	margin: 20px 0 0 150px;
 }
