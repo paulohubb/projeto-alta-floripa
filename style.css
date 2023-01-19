@@ -34,7 +34,7 @@ nav a {
 	text-transform: uppercase;
 	color: #DAA520;
 	font-weight: bold;
-	font-size: 16px;
+	font-size: 14px;
 	text-decoration: none;
 
 
@@ -181,12 +181,30 @@ main ul {
 }
 h1 {
 	text-align: center;
+
 }
    nav {
    	position: static;
    	margin-bottom: 10px;
+   	padding: 0 5px;
    }
 
+   nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+	padding: 0 -10px;
+
+}
+.texto-sobre {
+	color: black;
+}
+.caixa {
+	font-size: 16px;
+}
+
+ul {
+	width: 380px;
+}
 main, .min {
 	display: block;
 	width: 200px;
@@ -215,4 +233,8 @@ footer, p {
 	margin: 0 1.5%; 	
 
 }
+
+
+.formulario {
+	width: 700px;
 }

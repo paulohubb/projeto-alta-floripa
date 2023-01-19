@@ -43,7 +43,7 @@ main {
 	font-size: 16px;
 	text-align: left;
 	vertical-align: top;
-	margin: 0 10 15; 
+	margin: 0; 
 	padding: 30px 20px;
 	box-sizing: border-box;
 	border-color: black;
@@ -51,7 +51,7 @@ main {
 	border-style: solid;
 	border-radius: 10px;
 	box-shadow: 10px 10px 10px #000000;
-	
+	color: black;
 
 }
 
@@ -99,7 +99,7 @@ nav a {
 	text-transform: uppercase;
 	color: #DAA520;
 	font-weight: bold;
-	font-size: 16px;
+	font-size: 14px;
 	text-decoration: none;
 
 }
