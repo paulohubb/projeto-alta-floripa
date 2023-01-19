@@ -143,7 +143,7 @@ footer {
 .texto-rodape {
 	font-size: 16px;
 	color: white;
-	margin: -30px;
+	margin: 0;
 	vertical-align: top;
 }
 
@@ -170,9 +170,54 @@ footer {
 }
 
 .ytb {
+
 	margin: 20px 0 0 100px;
 }
 
 .maps {
-	margin: 20px 0 0 150px;
+	    margin-left: 60px;
 }
+
+
+
+@media screen and (max-width: 480px) {
+	*, .caixa, .onde-achar, .maps {
+		width: auto;
+	}
+.video  { 
+	display: block;
+	margin-left: -80px; 
+}
+.maps, {
+	    margin-left: 60px;
+}
+h1 {
+	text-align: center;
+}
+
+h2, .onde-achar {
+	font-size: 15px;
+}
+   nav {
+   	position: static;
+   	margin-bottom: 10px;
+   }
+.texto-rodape {
+	font-size: 12px;
+
+}
+
+footer, p {
+	font-size: 12px;
+	color: white;
+	text-align: center;
+	margin: 0;
+
+}
+
+.rodape {
+	margin-bottom: -30px;
+}
+}
+
+
