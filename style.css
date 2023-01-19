@@ -209,7 +209,7 @@ main, .min {
 	display: block;
 	width: 200px;
 	
-	margin: 0 20px;
+	margin: 0 10px;
 }
 
 .texto-rodape {
@@ -236,5 +236,9 @@ footer, p {
 
 
 .formulario {
-	width: 700px;
+	width: 380px;
+}
+
+.input-padrao {
+	width: 250px;
 }
