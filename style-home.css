@@ -184,6 +184,8 @@ footer {
 	*, .caixa, .onde-achar, .maps {
 		width: auto;
 	}
+
+.caixa {}
 .video  { 
 	display: block;
 	margin-left: -80px; 

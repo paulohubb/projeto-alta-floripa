@@ -16,12 +16,13 @@ header {
 .caixa {
 	position: relative;
 	width: 940px;
-	margin: -10px auto;
+	margin: 0 auto;
 }
 nav {
 	position: absolute;
-	top:80px;
+	top: 90px;
 	right: 0;
+
 
 }
 nav li {
@@ -171,6 +172,7 @@ main ul {
 @media screen and (max-width: 480px) {
 	*, .caixa, .onde-achar, .maps {
 		width: auto;
+		margin-right: 0;
 	}
 .video  { 
 	display: block;
@@ -185,14 +187,16 @@ h1 {
 }
    nav {
    	position: static;
-   	margin-bottom: 10px;
+   
    	padding: 0 5px;
+   	margin-bottom: -15px;
    }
 
    nav li {
 	display: inline;
 	margin: 0 0 0 15px;
 	padding: 0 -10px;
+
 
 }
 .texto-sobre {
