@@ -160,6 +160,7 @@ main ul {
 }
 
 .min {
+	display: flex;
 	width: 160px;
 	padding: 30px;
 	margin-left: -50px;
