@@ -5,24 +5,23 @@ body {
 
 header {
 	background: black;
-	padding: 20px 0;
+	padding: 0;
 }
 
 
 .logo {
-	width: 120px;
+	width: 90px;
 }
 
 .caixa {
 	position: relative;
 	width: 940px;
-	margin: 0 auto;
+	margin: auto;
 }
 nav {
 	position: absolute;
-	top: 90px;
-	right: 0;
-
+	top:30px;
+	right: 0
 
 }
 nav li {
@@ -80,18 +79,16 @@ footer {
 	background: black;
 
 }
-.texto-rodape {
+#texto-roda {
+	display: block;
 	text-align: center;
 	font-size: 16px;
 	color: white;
-	vertical-align: top;
-	margin: 0;
 }
 
 .rodape {
 	width: 80px;
-	text-align: center;
-	padding: 0 0 -30px;
+	padding: 0 0 -10px;
 
 }
 

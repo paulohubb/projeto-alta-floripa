@@ -75,7 +75,7 @@ header {
 
 
 .logo {
-	width: 140px;
+	width: 100px;
 }
 
 .caixa {
@@ -85,7 +85,7 @@ header {
 }
 nav {
 	position: absolute;
-	top:90px;
+	top:40px;
 	right: 0;
 
 }
@@ -185,7 +185,6 @@ footer {
 		width: auto;
 	}
 
-.caixa {}
 .video  { 
 	display: block;
 	margin-left: -80px; 
