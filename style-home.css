@@ -1,9 +1,15 @@
+* {
+	background: black;
+}
+
 body {
 	 font-family: 'Montserrat';font-size: 16px;
 }
 .banner2 {
 	display: inline-block;
 	width: 100%	
+	height: auto;
+	margin-left: 30%
 
 }
 
@@ -13,10 +19,11 @@ p {
 }
 
 main {
-	
+	background: black;
 	text-align: center;
 	font-size: 15px;
 	margin: 50px 0;	
+	color: white;
 }
 
 
@@ -24,6 +31,8 @@ main {
 	margin-top: -30px;
 	font-size: 20px;
 	text-transform: uppercase
+	color: white;
+
 
 
 }
@@ -38,20 +47,22 @@ main {
 
 }
 
-
+.principal {
+	width: auto;
+}
 .textosobre {
-	font-size: 16px;
-	text-align: left;
+	width: auto;
+	font-size: 14px;
 	vertical-align: top;
 	margin: 0; 
-	padding: 30px 20px;
 	box-sizing: border-box;
-	border-color: black;
+	border-color: white;
 	border-width: 2px;
 	border-style: solid;
 	border-radius: 10px;
 	box-shadow: 10px 10px 10px #000000;
-	color: black;
+	color: white;
+	padding: 10px 10px;
 
 }
 
@@ -79,8 +90,9 @@ header {
 }
 
 .caixa {
+	text-align: center;
 	position: relative;
-	width: 940px;
+	width: 100%;
 	margin: -10px auto;
 }
 nav {
@@ -148,46 +160,59 @@ footer {
 }
 
 .video {
-	display: flex;
+	display: block;
 }
 
 
-.onde-achar { 
-	font-size: 16px;
-	text-transform: bold;
-	text-transform: uppercase;
-	padding: 30px;
-}
-
-.onde-achar:before {
-	content: " [ ";
-
-}
-
-.onde-achar:after {
-	content: " ] ";
-
-}
 
 .ytb {
 
-	margin: 20px 0 0 100px;
+	margin: 50px 100px;
 }
 
-.maps {
-	    margin-left: 60px;
+.maps, frame  {
+	  margin: auto 0;
 }
 
+#texto-roda {
+	color: white;
+	font-size: 12px;
 
+}
 
 @media screen and (max-width: 480px) {
 	*, .caixa, .onde-achar, .maps {
 		width: auto;
 	}
 
+.banner2 {
+	width: 350px;
+	margin-left: 30px;
+
+}
+.textosobre {
+	width: auto;
+	font-size: 14px;
+	vertical-align: top;
+	margin: 0; 
+	box-sizing: border-box;
+	border-color: white;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px #000000;
+	color: white;
+	padding: 10px 10px;
+ }
+
+
+.ytb {
+	margin: auto;
+}
+}
 .video  { 
 	display: block;
-	margin-left: -80px; 
+	margin: auto; 
 }
 .maps, {
 	    margin-left: 60px;
@@ -203,8 +228,8 @@ h2, .onde-achar {
    	position: static;
    	margin-bottom: 10px;
    }
-.texto-rodape {
-	font-size: 12px;
+#texto-roda {
+	font-size: 10px;
 
 }
 
@@ -216,9 +241,6 @@ footer, p {
 
 }
 
-.rodape {
-	margin-bottom: -30px;
-}
 
 }
 
