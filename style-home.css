@@ -208,6 +208,7 @@ footer {
 
 .ytb {
 	margin: auto;
+	padding: 10px 0;
 }
 }
 .video  { 
@@ -216,6 +217,7 @@ footer {
 }
 .maps, {
 	    margin-left: 60px;
+	    padding: 10px 0;
 }
 h1 {
 	text-align: center;

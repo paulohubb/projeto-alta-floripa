@@ -204,6 +204,10 @@ main ul {
 		width: auto;
 		margin-right: 0;
 	}
+
+.lista-menu {
+    padding: 15px;
+}
 .video  { 
 	display: block;
 	margin-left: -80px; 
